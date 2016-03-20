@@ -5,18 +5,33 @@ ul:after {
   content:'';
   clear:both;
 }
-/* please enter CSS here */
-/*
-1) Remove Styling of lists
-   list-style:
-   margin:
-   padding:
-2) Style block without floats
-   display:
-   width:
-   height:
-   background
-   border:
-3) Apply floats
-4) Center text within blocks
-*/
+ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px black solid;
+    background: yellow;
+    text-align: center;
+    line-height: 50px
+}
+
+
+li:first-child, li:nth-child(2), li:nth-child(3), li:nth-child(8){
+  float: left;
+}
+li:nth-child(4), li:nth-child(5), li:nth-child(6), li:nth-child(9), li:nth-child(10), li:nth-child(12){
+  float: right;
+}
+
+li:nth-child(7), li:nth-child(11){
+  clear: right;
+  float: left;
+}
+
+p {
+  background: blue;
+  height: 50px
+}

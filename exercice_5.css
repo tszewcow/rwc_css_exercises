@@ -1,4 +1,60 @@
 section {
   min-height: 200px
 }
-/*write your css */
+
+header {
+    background: red;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+section {
+    height: 200px;
+    position: relative;
+    margin-left: 100px;
+    background: green;
+}
+
+nav {
+    width: 100px;
+    background: blue;
+    position: absolute;
+    top: 0;
+    left: -100px;
+    height: 100%;
+}
+
+section {
+  min-height: 200px
+}
+
+header {
+    background: red;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+section {
+    height: 200px;
+    position: relative;
+    margin-left: 100px;
+    background: green;
+}
+
+footer {
+    background: yellow;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+nav {
+    width: 100px;
+    background: blue;
+    position: absolute;
+    top: 0;
+    left: -100px;
+    height: 100%;
+}

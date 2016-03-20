@@ -1,1 +1,22 @@
-/* Put your CSS here */
+span:first-child, span:last-child {
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+span:first-child {
+    border-width: 10px 10px 10px 0;
+    border-color: transparent black transparent transparent;
+}
+
+span:last-child {
+    border-width: 10px 0px 10px 10px;
+    border-color: transparent transparent transparent black;
+}
+
+span {
+    display: block;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
