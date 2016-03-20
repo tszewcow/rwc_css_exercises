@@ -1,0 +1,20 @@
+input{
+  display: block;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+.container{
+  float: left;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.round input{
+  border-radius: 5px;
+}
+
+input.gray{
+  background: #ededed;
+}
+
+/*Do not modify css*/

@@ -1,0 +1,22 @@
+/* appends automatic clear after last li element, will be explained later */
+ul:after {
+  display:block;
+  height:0;
+  content:'';
+  clear:both;
+}
+/* please enter CSS here */
+/*
+1) Remove Styling of lists
+   list-style:
+   margin:
+   padding:
+2) Style block without floats
+   display:
+   width:
+   height:
+   background
+   border:
+3) Apply floats
+4) Center text within blocks
+*/
